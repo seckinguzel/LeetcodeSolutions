@@ -18,8 +18,8 @@ class Solution {
         }
         String prefix = strs[0];
         for (int i = 1; i < strs.length; i++) {
-            while (strs[i].indexOf(prefix) != 0) {
-                prefix = prefix.substring(0, prefix.length() - 1);
+            while (strs[i].indexOf(prefix) != 0) { //While indexOf the prefix string is not equal to zero.
+                prefix = prefix.substring(0, prefix.length() - 1); //While we cannot find the prefix at the begining of the array, for this example it is "flower" then it is going to decrease the size of the string. So it will be like that "flower"->"flowe"->"flow" then it is going to stop when until finish the loop.
                 if (prefix.isEmpty()) {
                     return "";
                 }
