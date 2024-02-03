@@ -29,6 +29,15 @@ package _3LongestSubstringWithoutRepeatingCharacters;
 
 public class TestDrive {
     public static void main(String[] args) {
-        System.out.println("Test!");
+        Solution solution = new Solution();
+
+        // Example 1
+        System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
+
+        // Example 2
+        System.out.println(solution.lengthOfLongestSubstring("bbbbb"));
+
+        // Example 3
+        System.out.println(solution.lengthOfLongestSubstring("pwwkew"));
     }
 }
