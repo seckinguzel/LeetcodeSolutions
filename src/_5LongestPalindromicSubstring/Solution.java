@@ -23,11 +23,12 @@ public class Solution {
     }
 
     private int expandAroundCenter(String s, int left, int right) {
+//      This method function is designed to return the length of the palindrome.
         while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
             left--;
             right++;
         }
 
-        return right - left - 1;
+        return right - left - 1; // This is used to calculate the length of the palindrome.
     }
 }
