@@ -26,6 +26,18 @@ package _4MedianOfTwoSortedArrays;
 
 public class TestDrive {
     public static void main(String[] args) {
-        System.out.println("Test!");
+        Solution solution = new Solution();
+
+        // Example 1
+        int[] nums1 = new int[]{1, 3};
+        int[] nums2 = new int[]{2};
+
+        System.out.println(solution.findMedianSortedArrays(nums1, nums2));
+
+        // Example 2
+        int [] nums3 = new int[]{1, 2};
+        int [] nums4 = new int[]{3, 5};
+
+        System.out.println(solution.findMedianSortedArrays(nums3, nums4));
     }
 }
