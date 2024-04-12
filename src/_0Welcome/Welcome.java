@@ -7,4 +7,3 @@ public class Welcome {
                 "By Seckin Guzel.");
     }
 }
-//
